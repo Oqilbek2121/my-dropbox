@@ -20,7 +20,7 @@ const NotFound = () => {
             <h1 className="text-danger">"/{params.pageName}"</h1>
             <h3 className="card-text fs-4">Page not found</h3>
             <i className='f'>It's looking like you may have taken a wrong turn. Don't worry it happens to the most of us.</i> <br />
-            <Link to="/"><button className="btn btn-success w-100 mt-3">Go to the back.</button></Link>
+            <Link to="/login"><button className="btn btn-success w-100 mt-3">Go to the back.</button></Link>
           </div>
         </div>
       </main>

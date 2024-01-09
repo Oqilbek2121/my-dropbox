@@ -58,7 +58,7 @@ export default function UpdateProfile() {
                   </div>
                   <div className="form-floating mb-3">
                       <input type="password" ref={inputPassword} className="form-control" id="floatingPassword" placeholder="Password" required />
-                      <label for="floatingPassword">Password</label>
+                      <label for="floatingPassword">New Password</label>
                   </div>
                   <div className="form-floating mb-4">
                       <input type="password" ref={inputPasswordConfirm} className="form-control" id="floatingPassword" placeholder="Password" autoComplete="current-password" required />
